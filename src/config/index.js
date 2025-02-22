@@ -1,6 +1,5 @@
 const dotenv = require("dotenv")
 dotenv.config();
-console.log(process.env.EMAIL, process.env.PASSWORD);
 module.exports = {
   PORT: process.env.PORT,
   EMAIL: process.env.EMAIL,

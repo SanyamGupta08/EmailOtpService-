@@ -16,5 +16,4 @@ const deleteOtp = async (req, res) => {
     const response = await otpService.deleteOtp(userData);
     res.send(response)
 };
-// const deleteOtp = async () => { };
 module.exports = { createOtp ,deleteOtp,validateOtp};
